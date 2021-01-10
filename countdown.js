@@ -1,4 +1,3 @@
-
 const newYear = '12 February 2021';
 
 const countdownDays = document.getElementById("days");
