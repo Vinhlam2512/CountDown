@@ -1,12 +1,15 @@
-const newYear = '12 February 2021';
+const newYear = '10 June 2021';
 
 const countdownDays = document.getElementById("days");
 const countdownHours = document.getElementById("hours");
 const countdownMinutes = document.getElementById("minutes");
 const countdownSeconds = document.getElementById("seconds");
 
+
+
 function countDown () {
     const newYearDates = new Date(newYear);
+    console.log(newYearDates)
     const currentDate = new Date();
     
     const totalSeconds = (newYearDates - currentDate) / 1000;
