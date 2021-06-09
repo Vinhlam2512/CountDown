@@ -9,7 +9,7 @@ body {
     font-family: 'Srisakdi', cursive;
     font-family: 'Taviraj', serif;
     margin: 0;
-    background-image: url(/assets/nga.jpg);
+    /* background-image: url(/assets/nga.jpg); */
     background-size: cover;
     min-height: 100vh;
 }
